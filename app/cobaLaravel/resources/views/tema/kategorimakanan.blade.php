@@ -1,68 +1,33 @@
 @extends('tema.main')
 
-@section('home')
+@section('kategorimakanan')
 <!-- fOOD sEARCH Section Starts Here -->
 <section class="food-search text-center">
         <div class="container">
             
-            <form action="/pencarian" method="get">
-                <input type="search" name="search" placeholder="Mau Cari Apa..." required>
-                <input type="submit" name="submit" value="Search" class="btn btn-primary">
-            </form>
+            <h2>Makanan di <a href="/kategori" class="text-black">"Makanan"</a></h2>
 
         </div>
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
 
-    <!-- CAtegories Section Starts Here -->
-    <section class="categories">
-        <div class="container">
-            <h2 class="text-center"><Menu>Jelajahi Menu Kami</Menu></h2>
 
-            <a href="/kategorimakanan">
-            <div class="box-3 float-container">
-                <img src="gambar/rendang1.jpeg" alt="Makanan" class="img-responsive img-curve">
-
-                <h3 class="float-text text-white">Makanan</h3>
-            </div>
-            </a>
-
-            <a href="/kategoriminuman">
-            <div class="box-3 float-container">
-                <img src="gambar/coklat.jpg" alt="Minuman" class="img-responsive img-curve">
-
-                <h3 class="float-text text-white">Minuman</h3>
-            </div>
-            </a>
-
-            <a href="/kategoritambahan">
-            <div class="box-3 float-container">
-                <img src="gambar/perkedel.jpg" alt="Tambahan" class="img-responsive img-curve">
-
-                <h3 class="float-text text-white">Tambahan</h3>
-            </div>
-            </a>
-
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- Categories Section Ends Here -->
 
     <!-- fOOD MEnu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Menu - Menu Favorit</h2>
+            <h2 class="text-center">Food Menu</h2>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="gambar/Ayam Goreng Kuning Serundeng  by Meat Gong.jpeg.jpg" alt="Ayam Serundeng" class="img-responsive img-curve">
+                    <img src="gambar/rendang.jpeg" alt="rendang" class="img-responsive img-curve">
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Ayam Serundeng</h4>
-                    <p class="food-price">Rp 8.000,00</p>
+                    <h4>rendang</h4>
+                    <p class="food-price">Rp 10.000,00</p>
                     <p class="food-detail">
-                        Ayam Goreng Kuning dengan bumbu Serundeng
+                        Daging sapi yang diolah
                     </p>
                     <br>
 
@@ -79,7 +44,7 @@
                     <h4>Telur Balado</h4>
                     <p class="food-price">Rp 6.000,00</p>
                     <p class="food-detail">
-                        Telur yang dimasak dengan bumbu balado
+                        Telur yang dibumbui
                     </p>
                     <br>
 
@@ -89,65 +54,14 @@
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
-                    <img src="gambar/rendang.jpeg" alt="Rendang" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Rendang</h4>
-                    <p class="food-price">Rp 10.000,00</p>
-                    <p class="food-detail">
-                        Dibuat menggunakan daging sapi yang dibumbui
-                    </p>
-                    <br>
-
-                    <a href="/order" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="gambar/tahu.jpeg" alt="perkedel" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Tahu Goreng</h4>
-                    <p class="food-price">Rp 3.000,00</p>
-                    <p class="food-detail">
-                        Olahan kedelai goreng
-                    </p>
-                    <br>
-
-                    <a href="/order" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="gambar/Resep Perkedel Kentang Sederhana.jpeg.jpg" alt="" class="img-responsive img-curve">
-                </div>
-
-                <div class="food-menu-desc">
-                    <h4>Perkedel Kentang</h4>
-                    <p class="food-price">Rp 3.000,00</p>
-                    <p class="food-detail">
-                        Olahan Kentang yang digoreng
-                    </p>
-                    <br>
-
-                    <a href="/order" class="btn btn-primary">Order Now</a>
-                </div>
-            </div>
-
-            <div class="food-menu-box">
-                <div class="food-menu-img">
-                    <img src="gambar/hati.jpeg" alt="" class="img-responsive img-curve">
+                    <img src="gambar/hati.jpeg" alt="rendang" class="img-responsive img-curve">
                 </div>
 
                 <div class="food-menu-desc">
                     <h4>Hati Ayam</h4>
-                    <p class="food-price">Rp 5.000,00</p>
+                    <p class="food-price">Rp 8.000,00</p>
                     <p class="food-detail">
-                        Hati Ayam yang dimasak
+                        Hati Ayam yang diolah
                     </p>
                     <br>
 
@@ -155,9 +69,62 @@
                 </div>
             </div>
 
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="gambar/ayam.jpeg" alt="rendang" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Ayam Goreng</h4>
+                    <p class="food-price">Rp 8.000,00</p>
+                    <p class="food-detail">
+                        Ayam Goreng biasa
+                    </p>
+                    <br>
+
+                    <a href="/order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="gambar/Nasi Bungkus Enak.jpeg.jpg" alt="rendang" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Ayam Bumbu Kuning</h4>
+                    <p class="food-price">Rp 8.000,00</p>
+                    <p class="food-detail">
+                        Daging ayam bumbu kuning
+                    </p>
+                    <br>
+
+                    <a href="/order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="gambar/Ayam Goreng Kuning Serundeng  by Meat Gong.jpeg.jpg" alt="rendang" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Ayam Goreng Serundeng</h4>
+                    <p class="food-price">Rp 8.000,00</p>
+                    <p class="food-detail">
+                        Ayam goreng dengan bumbu serundeng
+                    </p>
+                    <br>
+
+                    <a href="/order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
 
             <div class="clearfix"></div>
+
         </div>
+
     </section>
     <!-- fOOD Menu Section Ends Here -->
+
 @endsection

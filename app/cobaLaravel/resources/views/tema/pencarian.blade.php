@@ -1,8 +1,20 @@
 @extends('tema.main')
 
-@section('makanan')
-<!-- fOOD MEnu Section Starts Here -->
-<section class="food-menu">
+@section('pencarian')
+<!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <h2><a href="/" class="text-black">Makanan Yang Anda Cari </a></h2>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
         <div class="container">
             <h2 class="text-center">Food Menu</h2>
 
@@ -249,5 +261,5 @@
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+    <!-- fOOD Menu Section Ends Here -->
 @endsection

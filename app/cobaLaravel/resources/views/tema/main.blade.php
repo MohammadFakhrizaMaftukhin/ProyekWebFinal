@@ -18,13 +18,33 @@
     @yield('home')
     <!-- Home section end here -->
 
-    <!-- Home section start here -->
+    <!-- kategori section start here -->
     @yield('kategori')
-    <!-- Home section end here -->
+    <!-- kategori section end here -->
 
-    <!-- Home section start here -->
+    <!-- makanan section start here -->
     @yield('makanan')
-    <!-- Home section end here -->
+    <!-- makanan section end here -->
+
+    <!-- order section start here -->
+    @yield('pencarian')
+    <!-- order section end here -->
+
+    <!-- order section start here -->
+    @yield('order')
+    <!-- order section end here -->
+
+    <!-- order section start here -->
+    @yield('kategorimakanan')
+    <!-- order section end here -->
+
+    <!-- order section start here -->
+    @yield('kategoriminuman')
+    <!-- order section end here -->
+
+    <!-- order section start here -->
+    @yield('kategoritambahan')
+    <!-- order section end here -->
 
     <!-- Footer section start here -->
     @include('tema._footer')
