@@ -29,7 +29,7 @@
                     </p>
                     <br>
 
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                     </p>
                     <br>
 
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                     </p>
                     <br>
 
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                     </p>
                     <br>
 
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
