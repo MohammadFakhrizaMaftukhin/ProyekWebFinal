@@ -6,7 +6,7 @@
         <div class="container">
             <h2 class="text-center">Jelajahi Makanan</h2>
 
-            <a href="category-foods.html">
+            <a href="/kategorimakanan">
             <div class="box-3 float-container">
                 <img src="gambar/Easy and Simple Beef Rendang Recipe (Javanese-Style) - Taste of Nusa.jpeg.jpg" alt="Rendang" class="img-responsive img-curve">
 
@@ -14,7 +14,7 @@
             </div>
             </a>
 
-            <a href="category-minuman.html">
+            <a href="/kategoriminuman">
             <div class="box-3 float-container">
                 <img src="gambar/evakolenko.jpeg.jpg" alt="es" class="img-responsive img-curve">
 
@@ -22,7 +22,7 @@
             </div>
             </a>
 
-            <a href="category-tambahan.html">
+            <a href="/kategoritambahan">
             <div class="box-3 float-container">
                 <img src="gambar/Tempe mendoan atau Tempe goreng Tepung Enak.jpeg.jpg" alt="tempe" class="img-responsive img-curve">
 

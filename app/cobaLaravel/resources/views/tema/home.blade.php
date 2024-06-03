@@ -2,6 +2,11 @@
 
 @section('home')
 <!-- fOOD sEARCH Section Starts Here -->
+<?php 
+foreach ($data as $x) {
+  echo $x['kategori']." <br>";
+}
+?>
 <section class="food-search text-center">
         <div class="container">
             

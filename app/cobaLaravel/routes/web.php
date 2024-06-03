@@ -2,9 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('tema.home');
-});
+Route::get('/', "\App\Http\Controllers\DefaultController@home"
+);
 
 Route::get('/makanan', function () {
     return view('tema.makanan');
