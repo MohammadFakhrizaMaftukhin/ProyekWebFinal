@@ -6,9 +6,7 @@ Sprint 1
 * Menu Online
 * Pemesanan Online
 * Galeri Foto
-* Informasi Lokasi dan Kontak
 * Layanan Pengiriman
-* Integrasi Media Sosial
 Sprint 2
 * ......
 
